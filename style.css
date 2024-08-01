@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header,.sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.sub-header {
+    color:#F9FAF8;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navlinks {
+    display: flex;
+}
+
+.navlink {
+    padding: 10px;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+}
+
+.quotetxt {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.author {
+    font-weight: bold;
+}
